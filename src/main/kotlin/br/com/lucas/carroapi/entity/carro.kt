@@ -9,7 +9,8 @@ data class Carro(@Id var id: String?,
                  var modelo: String,
                  var ano: Int,
                  var placa: String,
-                 var urlImagem: String?){
+                 var urlImagem: String?)
+{
 /*
     constructor() :this (id:"",
                          marca:"",
